@@ -1,0 +1,7 @@
+USE forms_dev;
+
+CREATE TABLE IF NOT EXISTS perritos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255),
+  raza VARCHAR(255)
+);
