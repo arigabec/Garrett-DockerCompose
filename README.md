@@ -1,8 +1,8 @@
-* Nombre: Ariane Garrett Becerra
-* Codigo: 54617
+### Nombre: Ariane Garrett Becerra
 
+### Codigo: 54617
 
-# Aplicación conectada a una base de datos para el guardado de datos
+## Aplicación conectada a una base de datos para el guardado de datos
 El siguiente repositorio contiene el proyecto de una aplicación hecha en React, que contiene un formulario que guarda datos dentro de un docker.
 
 ## Contraseña para el root
@@ -20,15 +20,27 @@ Se requieren los siguientes requisitos de hardware para ejecutar WSL 2 en Window
 
 ## Ejecución local
 1. Clonar el repositorio que contiene el docker con el siguiente comando:
-  ``
+```bash
+https://github.com/arigabec/Garrett-DockerCompose.git
+```
 
 2. Ubica el proyecto en una carpeta que recuerdes e y ejecuta el comando para ubicarte en este directorio:
-  `cd [nombre del directorio]`
+```bash
+cd [nombre del directorio]
+```
   
-3. Levanta los servicios con los siguientes comandos:
-   `docker-compose up`
-   `docker-compose -f [nombre del archivo que tiene la configuracion del docker] up`
+4. Levanta los servicios con los siguientes comandos:
+```bash
+docker-compose up
+```
+```bash 
+docker-compose -f [nombre del archivo que tiene la configuracion del docker] up
+```
 
-4. Para detener los servicios:
-   `docker-compose down`
-   `docker-compose -f [nombre del archivo que tiene la configuracion del docker] down`
+6. Para detener los servicios:
+```bash
+docker-compose down
+```
+```bash
+docker-compose -f [nombre del archivo que tiene la configuracion del docker] down
+```
